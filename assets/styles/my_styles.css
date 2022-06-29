@@ -1,0 +1,19 @@
+body {
+	background-color: #27272A
+}
+
+.bl-bg{
+	background-color: #303035;
+}
+
+.text{
+    font-weight:bolder;
+}
+
+.shadow_color{
+	box-shadow: 0 0 1em rgb(123, 122, 116);
+}
+
+.button_color{
+	background-color: #a66eea;
+}

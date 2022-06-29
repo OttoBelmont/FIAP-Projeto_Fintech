@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/styles/my_styles.css">
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- Inicio cabeçalho com NavBar do Bootstrap -->
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="./home.html">FinTech</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ainda nao funcionais --></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+              <a class="btn btn-outline-success" href="./login_form.html" role="button">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Fim cabeçalho com NavBar do Bootstrap -->
+
+    <!-- Inicio do main e do container -->
+    <main class="my-5">
+      <div class="container">
+        <div class="row">
+          <!-- Coluna com a imagem -->
+          <div class="col-md-7 bl-bg">
+            <img src="./assets/images/pexels-pixabay-210600.jpg" alt="Moedas" title="Moedas" class="img-fluid rounded">
+          </div>
+          <!-- Coluna com o texto e botao -->
+          <div class="col-md-5 bl-bg">
+            <h1 class="mt-5 text-white">Bem-Vindo(a) a FinTech</h1>
+            <p class="mt-4 text-white">Sua carteira virtual e simplificada. Organize seus investimentos e gastos de maneira fácil e gratuitamente. Leia conteúdos e informe-se sobre o que fazer com seu dinheiro. Clique para se cadastrar!</p>
+            <button type="button" class="btn btn-primary mt-3 button_color"> Começar! </button>
+          </div>
+        </div>
+        <!-- Linha com conteudo adicional -->
+        <div class="row my-5">
+          <div class="col">
+            <div class="text-white my-3 py-3 card text-center rounded bl-bg text shadow_color">
+              <div class="card-body ">
+                Confira alguns dos nossos conteúdos!
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Inicio dos cards -->
+        <div class="row">
+          <div class="card-group">
+            <div class="card bl-bg text-white shadow_color me-2">
+              <img src="./assets/images/pexels-maitree-rimthong-1602726.jpg" class="card-img-top" alt="Pessoa Colocando Moeda em um Cofre Porquinho" title="Pessoa Colocando Moeda em um Cofre Porquinho">
+              <div class="card-body">
+                <h5 class="card-title">Qual melhor forma de guardar seu dinheiro?</h5>
+                <p class="card-text">Poupanças rendem quase nada de dinheiro. Então como eu faço pro meu dinheiro render?</p>
+                <button type="button" class="btn btn-primary button_color">Leia Mais</button>
+              </div>
+            </div>
+            <div class="card bl-bg text-white shadow_color me-2">
+              <img src="./assets/images/pexels-jessica-lewis-creative-583847.jpg" class="card-img-top" alt="Caderno Celular e Laptop" title="Caderno Celular e Laptop">
+              <div class="card-body">
+                <h5 class="card-title">Muitas Contas Para Pagar. Como Me Organizo?</h5>
+                <p class="card-text">Conheça dicas para sair do vermelhor nas dividas, e começar seus investimentos!</p>
+                <button type="button" class="btn btn-primary button_color">Leia Mais</button>
+              </div>
+            </div>
+            <div class="card bl-bg text-white shadow_color">
+              <img src="./assets/images/pexels-energepiccom-159888.jpg" class="card-img-top" alt="Graficos da Bolsa de Valores" title="Graficos da Bolsa de Valores">
+              <div class="card-body">
+                <h5 class="card-title">Bolsa de Valores. Como Funciona?</h5>
+                <p class="card-text">Aprenda o que cada valor representa!</p>
+                <button type="button" class="btn btn-primary button_color">Leia Mais</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim dos cards -->
+      </div>
+    </main>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
